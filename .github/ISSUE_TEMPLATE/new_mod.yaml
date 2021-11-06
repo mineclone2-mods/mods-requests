@@ -10,25 +10,6 @@ body:
       description: What is the purpose of the mod?
     validations:
       required: true
-  - type: checkboxes
-    id: category
-    attributes:
-      label: Which category describe the mod well?
-      description: You may select more than one.
-      options:
-        - label: World Gen
-        - label: Technology
-        - label: Magic
-        - label: Storage
-        - label: API and Library
-        - label: Adventure and RPG
-        - label: Map and Information
-        - label: Cosmetic
-        - label: Miscellanous
-        - label: Armor, Tools, Weapons
-        - label: Server Utility
-        - label: Food
-        - label: Redstone
   - type: input
     id: link
     attributes:
