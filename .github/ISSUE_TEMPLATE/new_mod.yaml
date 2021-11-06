@@ -24,7 +24,7 @@ body:
       label: Source Code
       description: Is the code availlable and if so, which is his licence?
       options:
-        - No
+        - No (unavaillable)
         - Yes (non-free)
         - Yes (MIT)
         - Yes (GPL)
