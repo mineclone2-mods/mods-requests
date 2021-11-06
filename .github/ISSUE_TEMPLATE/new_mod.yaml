@@ -21,15 +21,30 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: code
+    attributes:
+      label: Source Code
+      description: Is the code availlable and if so, which is his licence?
+      options:
+        - No
+        - Yes (non-free)
+        - Yes (MIT)
+        - Yes (GPL)
+  - type: dropdown
     id: version
     attributes:
       label: Minecraft Version
-      description: Which version Minecraft is the mod for?
+      description: Which Minecraft version is the mod for?
       options:
         - 1.17
+        - 1.16
+        - 1.15
         - 1.14
         - 1.13
         - 1.12
+        - 1.11
+        - 1.10
+        - 1.9
         - 1.8
     validations:
       required: true
