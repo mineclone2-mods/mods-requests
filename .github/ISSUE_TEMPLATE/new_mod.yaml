@@ -1,7 +1,7 @@
 name: New Mod Request
 description: Suggest a new mod to port to MineClone2
 title: "[Mod]: "
-labels: []
+labels: ["New Mod"]
 body:
   - type: textarea
     id: mod-description
