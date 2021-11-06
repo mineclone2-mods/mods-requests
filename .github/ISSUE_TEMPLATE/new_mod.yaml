@@ -24,9 +24,11 @@ body:
     id: version
     attributes:
       label: Minecraft Version
-      description: What version Minecraft is the mod for?
+      description: Which version Minecraft is the mod for?
       options:
         - 1.17
+        - 1.14
+        - 1.13
         - 1.12
         - 1.8
     validations:
