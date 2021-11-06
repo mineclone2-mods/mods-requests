@@ -24,7 +24,6 @@ body:
         - label: Adventure and RPG
         - label: Map and Information
         - label: Cosmetic
-          required: true
         - label: Miscellanous
         - label: Armor, Tools, Weapons
         - label: Server Utility
@@ -66,6 +65,7 @@ body:
         - 1.10
         - 1.9
         - 1.8
+        - 1.7
     validations:
       required: true
   - type: dropdown
