@@ -28,8 +28,8 @@ body:
         - Yes (non-free)
         - Yes (MIT)
         - Yes (GPL)
-      validations:
-        required: true
+    validations:
+      required: true
   - type: dropdown
     id: version
     attributes:
