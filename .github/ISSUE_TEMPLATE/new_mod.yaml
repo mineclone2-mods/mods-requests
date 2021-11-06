@@ -2,8 +2,6 @@ name: New Mod Request
 description: Suggest a new mod to port to MineClone2
 title: "[Mod]: "
 labels: ["bug"]
-assignees:
-  - octocat
 body:
   - type: textarea
     id: mod-description
@@ -30,6 +28,8 @@ body:
         - Yes (non-free)
         - Yes (MIT)
         - Yes (GPL)
+      validations:
+        required: true
   - type: dropdown
     id: version
     attributes:
