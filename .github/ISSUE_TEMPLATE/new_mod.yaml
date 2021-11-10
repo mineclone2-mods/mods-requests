@@ -28,6 +28,7 @@ body:
         - Yes (non-free)
         - Yes (MIT)
         - Yes (GPL)
+        - Yes (LGPL)
         - Yes (MMPL)
     validations:
       required: true
