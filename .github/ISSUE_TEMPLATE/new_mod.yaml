@@ -28,6 +28,7 @@ body:
         - Yes (non-free)
         - Yes (MIT)
         - Yes (GPL)
+        - Yes (MMPL)
     validations:
       required: true
   - type: dropdown
