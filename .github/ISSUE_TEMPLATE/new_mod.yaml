@@ -30,6 +30,7 @@ body:
         - Yes (GPL)
         - Yes (LGPL)
         - Yes (MMPL)
+        - Yes (EPL)
     validations:
       required: true
   - type: dropdown
