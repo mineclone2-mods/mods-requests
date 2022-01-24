@@ -31,6 +31,7 @@ body:
         - Yes (LGPL)
         - Yes (MMPL)
         - Yes (EPL)
+        - Yes (Apache)
     validations:
       required: true
   - type: dropdown
