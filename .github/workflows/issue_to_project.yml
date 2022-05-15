@@ -3,7 +3,7 @@ name: Add new mods to project
 on:
   issues:
     types:
-      - opened
+      - labeled
 
 jobs:
   add-to-project:
@@ -14,5 +14,5 @@ jobs:
         with:
           project-url: https://github.com/orgs/mineclone2-mods/projects/2
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
-          labeled: New Mod
+          labeled: ✅ Approved
           label-operator: OR
