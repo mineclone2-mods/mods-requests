@@ -1,6 +1,6 @@
-name: New Mod Request
-description: Suggest a new mod to port to MineClone2
-title: "[Mod]: "
+name: Minecraft Mod Porting Request
+description: Suggest a new Minecraft mod to port to MineClone2
+title: "[Minecraft Mod]: "
 labels: ["New Mod"]
 body:
   - type: textarea
@@ -60,9 +60,10 @@ body:
     id: engine
     attributes:
       label: Engine
-      description: Do the mod use Forge or Fabric?
+      description: Do the mod use Forge, Fabric or another loader?
       options:
         - Forge
         - Fabric
+        - Other
     validations:
       required: true
